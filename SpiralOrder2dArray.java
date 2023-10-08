@@ -3,7 +3,6 @@ import java.util.*;
 
 
 public class SpiralOrder2dArray {
-
 	
 		   public static void main(String args[]) {
 		      Scanner sc = new Scanner(System.in);
