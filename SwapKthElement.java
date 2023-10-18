@@ -7,18 +7,21 @@ public class SwapKthElement {
         int size = sc.nextInt();
 
         int arr[] =new int[size];
-        int k = 2;
+        int k = 2; // kth element which we will swap 
 
+        // input
             for (int i = 0; i < size; i++) {
                 arr[i] = sc.nextInt();
             }
-
+        
+    //swapping using basic concept of using third variable to store it
             if (k < size) {
                 int temp = arr[k - 1];
                 arr[k - 1] = arr[size - k];
                 arr[size - k] = temp;
             }
-
+        
+            // output
             for (int i=0;i<size;i++){
             System.out.println(arr[i]);
         }
